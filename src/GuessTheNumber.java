@@ -126,9 +126,9 @@ import java.util.Random;
                 System.out.print("\nХотите сыграть ещё раз? (y/n): ");
                 String input = scanner.nextLine().trim().toLowerCase();
 
-                if (input.equals("y") || input.equals("yes") || input.equals("д") || input.equals("да")) {
+                if (input.equals("y") || input.equals("yes") ) {
                     return true;
-                } else if (input.equals("n") || input.equals("no") || input.equals("н") || input.equals("нет")) {
+                } else if (input.equals("n") || input.equals("no")) {
                     return false;
                 } else {
                     System.out.println("Пожалуйста, введите 'y' (да) или 'n' (нет)");
